@@ -2,7 +2,7 @@
 
 int main()
 {
-	int n, temp;
+	int n;
 	int cross = 1;
 	std::cin >> n;
 	// 몇 번째 대각선인지?
