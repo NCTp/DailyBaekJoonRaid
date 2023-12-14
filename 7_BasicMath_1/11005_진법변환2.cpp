@@ -7,6 +7,7 @@ int main()
 	int N; // number
 	int B; // binary, decimal ...
 	std::string  result; // return result
+	//std::string reversedResult;
 	
 	std::cin >> N >> B;
 	while (N != 0)
@@ -25,6 +26,13 @@ int main()
 	}
 
 	std::reverse(result.begin(), result.end());
+	/*
+	for (int i = result.length(); i >= 0; i--)
+	{
+		reversedResult += result[i];
+	}
+
+	*/
 
 
 	std::cout << result << '\n';
