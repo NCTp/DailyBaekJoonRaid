@@ -7,5 +7,5 @@
 
 
  <p align = "center">
- <img src = "\https://github.com/NCTp/BaekJoonRaid/assets/45461452/74f90e37-a3bc-4149-98ce-e8eee3cd3add">
+ <img src = "https://github.com/NCTp/BaekJoonRaid/assets/45461452/74f90e37-a3bc-4149-98ce-e8eee3cd3add">
  </p>
