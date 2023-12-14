@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <algorithm> 
+
 int main()
 {
 	int N; // number
