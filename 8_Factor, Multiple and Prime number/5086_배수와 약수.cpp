@@ -7,7 +7,7 @@ int main()
 
 	std::cin >> A >> B;
 
-	while (A != 0 || B != 0)
+	while (A != 0 && B != 0)
 	{
 		if (B % A == 0)
 			results.push_back("factor\n");
