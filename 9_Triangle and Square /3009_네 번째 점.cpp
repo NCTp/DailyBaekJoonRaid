@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+
 int main()
 {
 	// 짝짓기 문제.짝지어지지 않는 숫자가 (x4, y4) 에 들어갈 좌표가 된다.
