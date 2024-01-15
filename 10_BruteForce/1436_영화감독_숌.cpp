@@ -14,7 +14,7 @@ int main()
 	{
 		s_title = std::to_string(i_title);
 
-		if (s_title.find("666") != -1)
+		if (s_title.find("666") != -1) // find로 찾지 못하였을 때 -1의 값이 나오는 것은 아니지만, 판별할 때는 이런 식으로 사용이 가능하다.
 		{
 			count++;
 			if (count == N)
