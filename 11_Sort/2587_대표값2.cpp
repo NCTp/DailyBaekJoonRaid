@@ -5,8 +5,11 @@
 int main()
 {
 	std::vector<int> nums;
+	int n;
 	int sum = 0;
-	for (int i = 0; i < 5; i++)
+	n = 5;
+
+	for (int i = 0; i < n; i++)
 	{
 		int temp;
 		std::cin >> temp;
@@ -14,11 +17,10 @@ int main()
 		sum += temp;
 	}
 
+	int center = n / 2;
+
 	std::sort(nums.begin(), nums.end());
-
-
-
-	std::cout << sum/5 << '\n' << nums[2];
-	
+	std::cout << sum/nums.size() << '\n' << nums[center];	
 }
+
 
