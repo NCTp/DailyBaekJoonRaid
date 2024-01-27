@@ -13,10 +13,9 @@ int main()
 	for (int i = 0; i < n; i++)
 	{
 		std::string temp;
-		int temp2;
 		std::cin >> temp;
 		auto it = std::find(strings.begin(), strings.end(), temp);
-		if(it == strings.end())
+		if (it == strings.end())
 			strings.push_back(temp);
 	}
 
@@ -30,10 +29,8 @@ int main()
 			return a.length() < b.length();
 		}
 
-
 		});
 
-	
 	for (int i = 0; i < strings.size(); i++)
 	{
 		std::cout << strings[i]  << '\n';
