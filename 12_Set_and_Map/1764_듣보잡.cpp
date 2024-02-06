@@ -25,16 +25,13 @@ int main()
 				deut[temp] = 1;
 				sum++;
 			}
-
 		}
 	}
 
 	std::cout << sum << '\n';
-
 	for (std::map<std::string, int>::iterator it = deut.begin(); it != deut.end(); ++it)
 	{
 		if(it->second == 1)
 			std::cout << it->first << '\n';
-		
 	}
 }
