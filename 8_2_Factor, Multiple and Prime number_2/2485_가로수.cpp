@@ -16,29 +16,25 @@ T gcd(T a, T b)
 
 int main()
 {
-	int n;
-	int temp, temp2 = 0;
-
-	std::vector<int> distance; // 모든 간격 저장.
-
+	int n, temp, temp2 = 0;
 	std::cin >> n;
+	std::vector<int> distance;
+
 	for (int i = 0; i < n; i++)
 	{
 		std::cin >> temp;
 		if (temp2 != 0)
 			distance.push_back(temp - temp2);
-		
 		temp2 = temp;
 	}
 
-	int _gcd = distance[0]; // 모든 간격들의 최소 공약수.
+	int _gcd = distance[0];
 	for (int i = 1; i < distance.size(); i++)
 	{
-		_gcd = gcd(_gcd, distance[i]);
-
+		_gcd = gcd(_gcd, distance[i] );
 	}
 
-	int count = 0; // 심을 가로수의 갯수.
+	int count = 0;
 	for (int i = 0; i < distance.size(); i++)
 	{
 		count += (distance[i] / _gcd) - 1;
