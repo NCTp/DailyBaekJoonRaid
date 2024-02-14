@@ -6,7 +6,6 @@ int main()
 	int n;
 	std::cin >> n;
 	int n_sqrt = static_cast<int>(std::sqrt(n));
-	//GetP(n);
 
 	if (n == 1)
 	{
