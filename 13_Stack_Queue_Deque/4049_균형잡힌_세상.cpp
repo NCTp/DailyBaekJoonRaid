@@ -9,6 +9,7 @@ int main()
 	int s = 0, b = 0;
 	bool isBalanced = true;
 	bool isBigOpened = true;
+	
 	while (str != ".")
 	{
 		std::getline (std::cin, str);
@@ -17,6 +18,7 @@ int main()
 			if (str[i] == '[' || str[i] == ']' || str[i] == '(' || str[i] == ')' || str[i] == '.' || str[i] == ' ') chars.push_back(str[i]);
 		}
 	}
+	
 	for (int i = 0; i < chars.size() - 1; i++)
 	{
 		if (chars[i] == '.')
