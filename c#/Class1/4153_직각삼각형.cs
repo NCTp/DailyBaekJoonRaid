@@ -34,14 +34,12 @@ namespace BackJoon
                 }
                 else
                 {
-                    if ((length_A * length_A) + (length_B * length_B) == (length_C * length_C))
-                    {
+                    if ((length_A * length_A) 
+                        + (length_B * length_B) 
+                        == (length_C * length_C))
                         Console.WriteLine("right");
-                    }
                     else
-                    {
                         Console.WriteLine("wrong");
-                    }
                 }
             }
         }
