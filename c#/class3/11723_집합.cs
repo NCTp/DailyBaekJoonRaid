@@ -3,6 +3,7 @@ using System.Text;
 
 class Program
 {
+    // https://rebro.kr/63
     static void Main()
     {
         int S = 0;
